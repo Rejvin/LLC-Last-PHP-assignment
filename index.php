@@ -1,11 +1,9 @@
 <?php
-
-class DB
-{
-	private $conn;
-	private $table; 
-	private $where; 
-	private $select; 
+	class DB {
+		private $conn;
+		private $table; 
+		private $where; 
+		private $select; 
 		
 	function __construct($host,$user,$pass,$db)
 	{
